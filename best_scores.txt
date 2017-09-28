@@ -1,1 +1,10 @@
-Score: 0.9143333333333333; Number of features: 4; Number of Layers: 7; Learning Rate: 1e-06Score: 0.9073333333333333; Number of features: 7; Number of Layers: 7; Learning Rate: 1e-06Score: 0.8806666666666667; Number of features: 9; Number of Layers: 9; Learning Rate: 1e-06Score: 0.88; Number of features: 8; Number of Layers: 5; Learning Rate: 1e-06Score: 0.8776666666666667; Number of features: 8; Number of Layers: 1; Learning Rate: 1e-06Score: 0.8756666666666667; Number of features: 8; Number of Layers: 2; Learning Rate: 1e-06Score: 0.873; Number of features: 8; Number of Layers: 7; Learning Rate: 1e-06Score: 0.8713333333333333; Number of features: 8; Number of Layers: 9; Learning Rate: 1e-06Score: 0.8706666666666667; Number of features: 4; Number of Layers: 1; Learning Rate: 1e-06Score: 0.868; Number of features: 4; Number of Layers: 8; Learning Rate: 1e-06
+Score: 0.9366666666666666; Number of features: 19; Number of Layers: 11; Learning Rate: 1e-06
+Score: 0.9333333333333333; Number of features: 12; Number of Layers: 18; Learning Rate: 1e-06
+Score: 0.9333333333333333; Number of features: 28; Number of Layers: 10; Learning Rate: 1e-06
+Score: 0.933; Number of features: 16; Number of Layers: 9; Learning Rate: 1e-06
+Score: 0.933; Number of features: 23; Number of Layers: 19; Learning Rate: 1e-06
+Score: 0.9326666666666666; Number of features: 27; Number of Layers: 17; Learning Rate: 1e-06
+Score: 0.9326666666666666; Number of features: 29; Number of Layers: 7; Learning Rate: 1e-06
+Score: 0.9323333333333333; Number of features: 26; Number of Layers: 24; Learning Rate: 1e-06
+Score: 0.932; Number of features: 28; Number of Layers: 29; Learning Rate: 1e-06
+Score: 0.9316666666666666; Number of features: 11; Number of Layers: 15; Learning Rate: 1e-06

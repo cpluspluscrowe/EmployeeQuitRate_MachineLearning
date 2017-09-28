@@ -61,8 +61,8 @@ def TestAccuracyOfModel(number_of_features,number_of_layers,learning_rate,result
     results.append(result)
     print("Number of features: {0}; Number of Layers: {1}; Score: {2}; Learning Rate: {3}".format(number_of_features,number_of_layers,score,learning_rate))
 
-for number_of_features in range(1,10):
-    for number_of_layers in range(1,10):
+for number_of_features in range(1,30):
+    for number_of_layers in range(1,30):
         TestAccuracyOfModel(number_of_features,number_of_layers,1e-06,results) #store results in the list results
 
 results.sort(key=lambda x: x.score, reverse=True)
@@ -77,7 +77,7 @@ results.sort(key=lambda x: x.score, reverse=True)
 
 with open("best_scores.txt","w") as f:
     for x in results[:10]:
-        f.write("Score: {0}; Number of features: {1}; Number of Layers: {2}; Learning Rate: {3}".format(x.score,x.feature_count,x.layer_count,x.learning_rate))
+        f.write("Score: {0}; Number of features: {1}; Number of Layers: {2}; Learning Rate: {3}\n".format(x.score,x.feature_count,x.layer_count,x.learning_rate))
 
 
 from mpl_toolkits.mplot3d import Axes3D
